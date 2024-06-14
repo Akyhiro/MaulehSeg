@@ -37,3 +37,35 @@
         transition: all 1s ease-in-out;  
     }
 }
+
+.body-image{
+    height: 990px;
+    background-image: linear-gradient(#004E9E8C, #001C388C), url(assets/images/image01.png);
+    background-repeat: no-repeat;
+}
+
+.logo-body {
+    padding-top: 250px;
+    padding-left: 50px;
+    opacity: 80%;
+}
+
+.text {
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+
+button {
+    width: 287px;
+    height: 75px;
+    font-weight: 600;
+    font-size: 20;
+    color: white;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#1D951B8C, #1D951B8C);
+    border: 2px solid #3385D9;
+    border-radius: 50px;
+}
