@@ -12,6 +12,14 @@
     align-items: center;
     justify-content: space-around;
     background-color: #3385D9;
+
+    a {
+        transition: 0.3s ease;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+    }
 }
 
 .header-bottom {
@@ -41,6 +49,7 @@
 
 .initial-page-container {
     background-image: url('assets/imagem inicio.png');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -76,5 +85,75 @@
             cursor: pointer;
             transform: scale(1.05);
         }
+    }
+}
+
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+    img {
+        width: 170px;
+        margin: 36px 0 22px 0;
+    }
+
+    p {
+        color: #535353;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 36px;
+        font-size: 22px;
+    }
+}
+
+.footer-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 22px;
+    color: white;
+    background-color: #2766A7;
+
+    .footer-top-right{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .footer-top-center {
+        padding-left: 222px;
+    }
+    
+    .footer-top-center-icons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer-top-center-icons a{
+        transition: 0.3s ease;
+    }
+
+    .footer-top-center-icons a:hover {
+        transform: scale(1.1);
+    }
+}
+
+.footer-bottom-container {
+    background-color: #3385D9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 12px 22px;
+    border-top: solid 2px white;
+
+    a {
+        color: white;
+        font-weight: 400;
     }
 }
