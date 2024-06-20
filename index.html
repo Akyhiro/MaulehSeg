@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaulehSeg</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="shortcut icon" href="assets/favicon_io/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
-        <div class="header-top">
+        <div class="header-top" data-aos="fade-down" data-aos-duration="1000">
             <a href="tel:+11992542310"><img src="assets/header-icons/telefone-branco.png" alt="telefone-branco"
                     class="header-top-icons"></a>
             <a href="mailto:contato@maulehseg.com.br"><img src="assets/header-icons/email-branco.png" alt="email-branco"
@@ -24,7 +27,7 @@
                     src="assets/header-icons/instagram-branco.png" alt="instagram-branco" class="header-top-icons"></a>
         </div>
 
-        <div class="header-bottom">
+        <div class="header-bottom" data-aos="fade-down" data-aos-duration="1000">
             <a href="maulehseg.com.br"><img src="assets/header-icons/logo-png2.png" alt="logo"></a>
             <div class="header-bottom-buttons">
                 <a href="maulehseg.com.br">HOME</a>
@@ -35,62 +38,129 @@
 
         </div>
 
-        <div class="initial-page-container">
-
-            <div class="initial-page-text-box">
-
-                <h2>CONSULTORIA DE <br /> SEGURANÇA DO TRABALHO</h2>
-
-                <a href="#servicos"><button>SAIBA MAIS</button></a>
-
-            </div>
-
-        </div>
-
-        <div class="quem-somos">
-            <img src="assets/quemsomos.png" alt="quemsomos">
-            <p>Com uma vasta experiência na área de segurança e saúde no trabalho, estamos certos de que somos a empresa que irá entender a sua realidade e a partir deste ponto de partida traçaremos um plano para cumprirmos metas e tonar a segurança do trabalho um pilar ainda mais sólido que irá agregar muito valor a sua organização.</p>
-        </div>
-
-        <footer>
-
-            <div class="footer-top-container">
-
-                <div class="footer-top-left">
-                    <p>São Paulo - SP</p>
-                </div>
-                
-                <div class="footer-top-center">
-                    <img src="assets/header-footer/Vector.png" alt="logo-footer">
-                    <div class="footer-top-center-icons">
-                    <a href=""><img src="assets/header-footer/linkedin-branco.png" alt="linkedin-footer" class="icon-footer"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100078062823328"><img src="assets/header-footer/facebook-branco.png" alt="facebook-footer" class="icon-footer"></a>
-                    <a href="https://www.instagram.com/maulehseg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="assets/header-footer/instagram-branco.png" alt="instagram-footer" class="icon-footer"></a>
-                    </div>
-                </div>
-
-                <div class="footer-top-right">
-                    <p>Telefone: (11) 9 92542310 / (11) 9 5980154</p>
-                    <p>contato@maulehseg.com.br</p>
-                </div>
-                
-            </div>
-
-            <div class="footer-bottom-container">
-                
-                <div class="reservados">
-                    <p>© desde 2024, todos os direitos reservados.</p>
-                </div>
-
-                <div class="desenvolvedores">
-                    Desenvolvido por <a href="https://www.astraltech.com.br" target="_blank">Astral Tech</a> e <a href="https://github.com/Akyhiro" target="_blank">Gabriel Akyhiro</a>      
-                </div>
-
-            </div>
-
-        </footer>
-
     </header>
+
+    <div class="initial-page-container">
+
+        <div class="initial-page-text-box">
+
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2>CONSULTORIA DE <br /> SEGURANÇA DO TRABALHO</h2>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1000">
+                <a href="#servicos"><button>SAIBA MAIS</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="servicos-page-container">
+        <img src="assets/servicos.png" alt="servicos" class="servicos-title-image" data-aos="fade-up" data-aos-duration="1000">
+
+        <div class="servicos-container-box" data-aos="fade-rigt" data-aos-duration="1000">
+            <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="blue-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica e
+                    Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+
+            <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="green-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica
+                    e Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+
+            <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="blue-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica e
+                    Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+
+            <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="green-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica
+                    e Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+
+            <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="blue-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica e
+                    Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+
+            <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                <img src="assets/servicos/extintor.png" alt="extintor">
+                <p class="servico-title">NR-23</p>
+                <p><span class="green-text">Brigada de Incêndio</span> Formação de Brigada de Incêndio – (Parte Teórica
+                    e Prática). Conceito, prevenção e atuação em situações de emergência</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="quem-somos" id="quem-somos">
+        <img src="assets/quemsomos.png" alt="quemsomos" data-aos="fade-down" data-aos-duration="1000">
+        <p data-aos="fade-up" data-aos-duration="1000">Com uma vasta experiência na área de segurança e saúde no trabalho, estamos certos de que somos a empresa que
+            irá entender a sua realidade e a partir deste ponto de partida traçaremos um plano para cumprirmos metas e
+            tonar a segurança do trabalho um pilar ainda mais sólido que irá agregar muito valor a sua organização.</p>
+    </div>
+
+    <footer id="contato">
+
+        <div class="footer-top-container">
+
+            <div class="footer-top-left">
+                <p>São Paulo - SP</p>
+            </div>
+
+            <div class="footer-top-center">
+                <img src="assets/header-footer/Vector.png" alt="logo-footer">
+                <div class="footer-top-center-icons">
+                    <a href=""><img src="assets/header-footer/linkedin-branco.png" alt="linkedin-footer"
+                            class="icon-footer"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100078062823328"><img
+                            src="assets/header-footer/facebook-branco.png" alt="facebook-footer"
+                            class="icon-footer"></a>
+                    <a
+                        href="https://www.instagram.com/maulehseg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img
+                            src="assets/header-footer/instagram-branco.png" alt="instagram-footer"
+                            class="icon-footer"></a>
+                </div>
+            </div>
+
+            <div class="footer-top-right">
+                <p>Telefone: (11) 9 92542310 / (11) 9 5980154</p>
+                <p>contato@maulehseg.com.br</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom-container">
+
+            <div class="reservados">
+                <p>© desde 2024, todos os direitos reservados.</p>
+            </div>
+
+            <div class="desenvolvedores">
+                Desenvolvido por <a href="https://www.astraltech.com.br" target="_blank">Astral Tech</a> e <a
+                    href="https://github.com/Akyhiro" target="_blank">Gabriel Akyhiro</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
