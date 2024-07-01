@@ -11,8 +11,60 @@
 
 @media screen and (max-width:1366px) {
     .initial-page-container {
-        height:90vh;
+        height:100vh;
         padding: 8em 0 3em 0;
+
+        h2 {
+            font-size: 46px !important;
+        }
+
+        .initial-page-text-box {
+            button {
+                height: 65px;
+                width: 250px;
+                margin-bottom: 130px;
+            }
+        }
+    }
+
+    .servicos-page-container {
+        .servico-box {
+            img {
+                width: 70px;
+            }
+
+            .servico-title {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .servicos-container-box {
+            gap: 3rem;
+        }
+    }
+
+    .quem-somos {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    footer {
+        p {
+            font-size: 14px;
+        }
+
+        .desenvolvedores {
+            font-size: 14px;
+        }
+
+        .logo-footer {
+            width: 200px;
+        }
     }
 }
 
