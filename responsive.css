@@ -34,11 +34,11 @@
             }
 
             .servico-title {
-                font-size: 20px;
+                font-size: 22px;
             }
 
             p {
-                font-size: 14px;
+                font-size: 18px;
             }
         }
 
@@ -82,9 +82,8 @@
     }
 
     .initial-page-container {
-        background-image: none;
-        background-size: auto;
-        background: linear-gradient(45deg, rgb(51, 134, 217), rgb(29, 149, 27));
+        height: 75vh;
+        background-size: 100%;
     }
 
     .servico-box {
@@ -118,9 +117,11 @@
 
 @media screen and (max-width:950px) {
     .initial-page-container {
-        height: 80vh;
+        height: 70vh;
+        background-size: 180vh;
         padding: 8em 0 5em 0;
     }
+
     .initial-page-container h2 {
         font-size: 38px !important;
     }
@@ -162,5 +163,14 @@
                 text-align: center;
             }
         }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .initial-page-container {
+        background-image: url("assets/imagem_inicio_cell.jpeg");
+        background-size: 110%;
+        height: 80vh;
+        /* padding: 8em 0 5em 0; */
     }
 }

@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+.box_img_header img {
+    height: 80px !important;
+}
+
+.header_bottom {
+    padding: 5rem 8rem 5rem 3rem  !important;
+}
 
 .header {
     width: auto;
@@ -49,7 +56,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 10%;
+    padding: 3% 7%;
 
     position: fixed;
     z-index: 100;
@@ -58,22 +65,12 @@
 
 }
 
-/* .box_img_header {
-
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-top: 2px;
-
-} */
-
 .box_img_header a {
-    width: 11%;
+    width: 50%;
 }
 
 .box_img_header img {
-
-    width: 100%;
+    height: 3.5rem;
 }
 
 #navigation_header {

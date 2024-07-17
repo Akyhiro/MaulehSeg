@@ -24,16 +24,25 @@
     .box_contact_header a {
         font-size: 0.8em;
     }
+
     .box_img_header a {
         width: 14%;
     }
 }
 
 @media screen and (max-width:1366px) {
+    .box_img_header img {
+        height: 100px;
+    }
+
+    .header_bottom {
+        padding: 5rem;
+    }
+
     #navigation_header {
         gap: 5rem;
     }
-    
+
     .button_header {
         font-size: 14px;
     }
@@ -82,8 +91,11 @@
 
 @media screen and (max-width:768px) {
 
-    .header_top {
+    .header_top_container{
+        display: none !important;
+    }
 
+    .header_top {
         display: none !important;
     }
 
@@ -93,7 +105,7 @@
 
     .header_bottom {
         justify-content: space-between;
-        padding: 0 7%;
+        /* padding: 2% 7%; */
         height: 4rem;
         top: 0 !important;
 
@@ -160,6 +172,10 @@
 }
 
 @media screen and (max-width:500px) {
+    .header_bottom {
+        padding: 0;
+    }
+
     .button_header {
         font-size: 0.8em;
     }
