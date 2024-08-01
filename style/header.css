@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.box_img_header img {
+    height: 80px !important;
+}
+
+.header_bottom {
+    padding: 5rem 8rem 5rem 3rem  !important;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.header_top {
+    width: 100%;
+    height: 2.1rem;
+    background-color: #3385D9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2rem;
+}
+
+.box_contact_header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box_contact_header a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+}
+
+
+.header_bottom {
+    width: 100%;
+    height: 5rem;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3% 7%;
+
+    position: fixed;
+    z-index: 100;
+    box-shadow: -7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    top: 0;
+
+}
+
+.box_img_header a {
+    width: 50%;
+}
+
+.box_img_header img {
+    height: 3.5rem;
+}
+
+#navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10rem;
+    transition: 0.3s;
+}
+
+.btn_icon_header {
+    display: none;
+}
+
+
+.button_header {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    border-bottom: 1px solid transparent;
+    letter-spacing: 3px;
+
+    transition: 0.8s;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button_header:hover {
+    transition: 0.5s;
+    color: #3385D9;
+    border-bottom: 1px solid #3385D9;
+    padding: 2% 0;
+    outline: none;
+
+}
+
+
+.btn_link_mobile {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px
+}

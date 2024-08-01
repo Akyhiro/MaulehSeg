@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3385D9;
+    border-radius: 1px;
+}
+
+.header_top_container {
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0.5rem 0;
+    background-color: #3385D9;
+
+    a {
+        transition: 0.3s ease;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+    }
+
+    .header_top_box {
+        display: flex;
+        justify-content: space-around;
+        width: 15%;
+        .header-icons {
+            height: 35px !important;
+        }
+    }
+}
+
+.header-bottom-buttons {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: #3385D9;
+        transition: 0.3s ease;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transform: scale(1.05);
+    }
+}
+
+.initial-page-container {
+    background-image: url('assets/imagem inicio.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .initial-page-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5em;
+
+        h2 {
+            font-size: 64px;
+            color: white;
+            text-align: center;
+        }
+
+        button {
+            color: white;
+            font-size: 20px;
+            height: 75px;
+            width: 285px;
+            background: linear-gradient(45deg, rgba(29, 149, 27, 0.55), rgba(51, 133, 217, 0.55));
+            border-radius: 35px;
+            border: solid 2px #3385D9;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+}
+
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+    img {
+        width: 170px;
+        margin: 36px 0 22px 0;
+    }
+
+    p {
+        color: #535353;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 36px;
+        font-size: 22px;
+    }
+}
+
+.footer-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 22px;
+    color: white;
+    background-color: #67cf66;
+
+    .footer-top-right{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .footer-top-center {
+        padding-left: 222px;
+    }
+    
+    .footer-top-center-icons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer-top-center-icons a{
+        transition: 0.3s ease;
+    }
+
+    .footer-top-center-icons a:hover {
+        transform: scale(1.1);
+    }
+}
+
+.footer-bottom-container {
+    background-color: #5493d1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 12px 22px;
+    border-top: solid 2px white;
+
+    a {
+        color: white;
+        font-weight: 400;
+    }
+}
+
+.icon-footer {
+    height: 30px !important;
+}
+
+.logo-footer {
+    width: 300px;
+}
+
+.servicos-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    gap: 5em;
+
+    .servicos-title-image {
+        width: 170px;
+    }
+
+    .servicos-container-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 9rem;
+        width: 100%;
+    }
+
+    .servico-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        flex-direction: column;
+        width: 380px;
+        text-align: center;
+
+        img {
+            width: 100px;
+        }
+
+        .servico-title {
+            font-size: 26px;
+            font-weight: 500;
+        }
+
+        .blue-text {
+            color: #3385D9;
+        }
+
+        .green-text {
+            color: #1D951B;
+        }
+    }
+}

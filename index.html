@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaulehSeg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="shortcut icon" href="assets/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/res_header.css">
+    <script defer src="js/header.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header>
+
+        <div class="header_top_container" id="header_top">
+            <div class="header_top_box">
+                <a href="https://www.facebook.com/profile.php?id=100078062823328" target="_blank"><img src="assets/header-icons/facebook.png" class="header-icons"></a>
+                <a href="https://www.instagram.com/maulehseg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="assets/header-icons/instagram.png" class="header-icons"></a>
+                <a href="https://wa.link/qrwdin" target="_blank"><img src="assets/header-icons/whatsapp.png" class="header-icons"></a>
+                <a href="https://www.linkedin.com/in/maulehseg-maulehseg-724456318/" target="_blank"><img src="assets/header-icons/linkedin.webp" class="header-icons"></a>
+            </div>
+        </div>
+
+        <div class="header_bottom" id="header_bottom">
+            <button class="btn_icon_header" onclick="toggleSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <div class="box_img_header">
+                <a href="#inicio">
+                    <img src="assets/header-icons/Logo.jpeg" alt="imagem logo">
+                </a>
+            </div>
+
+            <nav id="navigation_header">
+                <button class="btn_icon_header btn_closed" onclick="toggleSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+
+                <a href="#inicio" class="button_header">HOME</a>
+                <a href="#servicos" class="button_header" class="scroll-link">SERVIÇOS</a>
+                <a href="#quem-somos" class="button_header" class="scroll-link">QUEM SOMOS</a>
+                <a href="#contato" class="button_header" class="scroll-link">CONTATO</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main tabindex="0" onclick="closedSideBar()" id="content" id="top">
+        <div class="initial-page-container" id="inicio">
+
+            <div class="initial-page-text-box">
+
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="titulo-main">CONSULTORIA DE <br /> SEGURANÇA DO TRABALHO</h2>
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="1000">
+                    <a href="#servicos"><button>SAIBA MAIS</button></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="servicos-page-container" id="servicos">
+            <img src="assets/servicos.png" alt="servicos" class="servicos-title-image" data-aos="fade-up" data-aos-duration="1000">
+
+            <div class="servicos-container-box" data-aos="fade-rigt" data-aos-duration="1000">
+                <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/servicos/documento.png" alt="extintor">
+                    <p class="servico-title">NR-01</p>
+                    <p><span class="blue-text">PGR/GRO</span> Programa de gerenciamento de riscos e gerenciamento de riscos ocupacionais.</p>
+                </div>
+                
+                <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/servicos/acidente.png" alt="extintor">
+                    <p class="servico-title">NR-05</p>
+                    <p><span class="green-text">C.I.P.A</span> Implementação e capacitação de representante e comissão interna de prevenção de acidentes.</p>
+                </div>
+                
+                <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/servicos/capacete.png" alt="extintor">
+                    <p class="servico-title">NR-06</p>
+                    <p><span class="blue-text">Equipamento de proteção individual</span> Orientações quanto a seleção, utilização, guarda e conservação dos EPI's.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/servicos/extintor.png" alt="extintor">
+                    <p class="servico-title">NR-23</p>
+                    <p><span class="green-text">Brigada de Incêndio</span> Composição, implementação e formação de brigada de incêndio.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/servicos/bombeiro.png" alt="extintor">
+                    <p class="servico-title">AVCB, CLCB</p>
+                    <p>Vistoria prévia para <span class="blue-text">AVCB/CLCB</span> e instalação de equipamentos de proteção contra incêndio.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/servicos/confinado.png" alt="extintor">
+                    <p class="servico-title">NR-33</p>
+                    <p><span class="green-text">Espaço confinado</span> Avaliação, reconhecimento de riscos, treinamento de capacitação de trabalhadores, vigias e supervisores, contratação de mão de obra para atuação em espaço confinado. Equipe de resgate técnico.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/servicos/altura.png" alt="extintor">
+                    <p class="servico-title">NR-35</p>
+                    <p><span class="blue-text">Trabalho em altura</span> Escolha da metodologia segura para trabalho em altura, seleção de equipamentos contratação de mão de obra especializada em trabalho em altura N1, N2 e N3. Equipe de resgate técnico.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/servicos/esocial.png" alt="extintor">
+                    <p class="servico-title">eSocial</p>
+                    <p>Realização de envio dos eventos de segurança e saúde do trabalho <span class="green-text">(S 2210, S 2220 e S 2240)</span>  através de software integrado com o gov.</p>
+                </div>
+
+                <div class="servico-box" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/servicos/nr12.png" alt="extintor">
+                    <p class="servico-title">NR-12</p>
+                    <p>Adequação para conformidade de <span class="blue-text">máquinas e equipamentos</span>, laudo de inspeção técnica e capacitação de trabalhadores.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="quem-somos" id="quem-somos">
+            <img src="assets/quemsomos.png" alt="quemsomos" data-aos="fade-down" data-aos-duration="1000">
+            <p data-aos="fade-up" data-aos-duration="1000">Com uma vasta experiência na área de segurança e saúde no trabalho, estamos certos de que somos a empresa que irá entender a sua realidade e a partir deste ponto de partida traçaremos um plano para cumprirmos metas e tornar a segurança do trabalho um pilar ainda mais sólido que irá agregar muito valor a sua organização.</p>
+        </div>
+
+        <footer id="contato">
+
+            <div class="footer-top-container">
+
+                <div class="footer-top-left">
+                    <p>Mogi das Cruzes - SP</p>
+                </div>
+
+                <div class="footer-top-center">
+                    <img src="assets/header-footer/Vector.png" alt="logo-footer" class="logo-footer">
+                    <div class="footer-top-center-icons">
+                        <a href="https://www.linkedin.com/in/maulehseg-maulehseg-724456318/" target="_blank"><img src="assets/header-icons/linkedin.webp" alt="linkedin-footer"
+                                class="icon-footer"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100078062823328" target="_blank"><img
+                                src="assets/header-icons/facebook.png" alt="facebook-footer"
+                                class="icon-footer"></a>
+                        <a href="https://www.instagram.com/maulehseg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img
+                                src="assets/header-icons/instagram.png" alt="instagram-footer"
+                                class="icon-footer"></a>
+                            <a href="https://wa.link/qrwdin" target="_blank"><img
+                                    src="assets/header-icons/whatsapp.png" alt="instagram-footer"
+                                    class="icon-footer"></a>
+                    </div>
+                </div>
+
+                <div class="footer-top-right">
+                    <p>Telefone: (11) 9 92542310 / (11) 9 5980154</p>
+                    <p>contato@maulehseg.com.br</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom-container">
+
+                <div class="reservados">
+                    <p>© desde 2024, todos os direitos reservados.</p>
+                </div>
+
+                <div class="desenvolvedores">
+                    Desenvolvido por <a href="https://www.astraltech.com.br" target="_blank">Astral Tech</a> e <a
+                        href="https://www.linkedin.com/in/gabriel-akyhiro-uramoto-539704219/" target="_blank">Gabriel Akyhiro</a>
+                </div>
+
+            </div>
+
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
